@@ -1,0 +1,18 @@
+body {
+    font-family: Times New Roman;
+    background-color: #f2c598;
+    padding: 0 3%;
+}
+
+h1 {
+    font-size: 300%
+    margin-bottom: 5%
+}
+
+h2 {
+    font-size: 150%
+}
+
+p {
+    margin: 15pt 0;
+}
