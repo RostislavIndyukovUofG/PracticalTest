@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Latest News</title>
+    </head>
+
+    <body>
+        <h1>Latest News</h1>
+        {% if latest_news_list %}
+        {% for story in latest_news_list %}
+
+        <h2>{{story.heading}}</h2>
+        <p>{{story.pub_date}}</p>
+        <p>{{story.story_text}}</p>
+        <br/>
+
+        {% endfor %}
+        {% else %}
+    <p>No news available.</p>
+        {% endif %}
+    </body>
+
+</html>
